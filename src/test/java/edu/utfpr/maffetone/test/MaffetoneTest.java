@@ -24,25 +24,25 @@ public class MaffetoneTest {
 	@Test
 	public void testCalcZonaMaffetoneMinA() {
 		
-		Assert.assertEquals(130, Maffetone.calcZonaMaffetoneA(30).getMin());
+		Assert.assertEquals(130, Maffetone.calcZonaMaffetoneCasoA(30).getMin());
 	}
 
 	@Test
 	public void testCalcZonaMaffetoneMaxA() {
 		
-		Assert.assertEquals(140, Maffetone.calcZonaMaffetoneA(30).getMax());
+		Assert.assertEquals(140, Maffetone.calcZonaMaffetoneCasoA(30).getMax());
 	}
 	
 	//TESTES CASO B
 	@Test
 	public void testCalcZonaMaffetoneMinB() {
 		
-		Assert.assertEquals(135, Maffetone.calcZonaMaffetoneB(30).getMin());
+		Assert.assertEquals(135, Maffetone.calcZonaMaffetoneCasoB(30).getMin());
 	}
 
 	@Test
 	public void testCalcZonaMaffetoneMaxB() {
 		
-		Assert.assertEquals(145, Maffetone.calcZonaMaffetoneB(30).getMax());
+		Assert.assertEquals(145, Maffetone.calcZonaMaffetoneCasoB(30).getMax());
 	}
 }

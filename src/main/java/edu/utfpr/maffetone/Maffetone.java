@@ -30,7 +30,7 @@ public class Maffetone {
 		return maffetone;
 	}
 
-	public static Maffetone calcZonaMaffetoneA(int idade) {
+	public static Maffetone calcZonaMaffetoneCasoA(int idade) {
 		Maffetone maffetone = new Maffetone();
 
 		maffetone.setMax(180 - idade - 10);
@@ -39,7 +39,7 @@ public class Maffetone {
 		return maffetone;
 	}
 
-	public static Maffetone calcZonaMaffetoneB(int idade) {
+	public static Maffetone calcZonaMaffetoneCasoB(int idade) {
 		Maffetone maffetone = new Maffetone();
 
 		maffetone.setMax(180 - idade - 5);
