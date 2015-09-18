@@ -23,11 +23,28 @@ public class Maffetone {
 
 	public static Maffetone calcZonaMaffetone(int idade) {
 		Maffetone maffetone = new Maffetone();
-		
+
 		maffetone.setMax(180 - idade);
 		maffetone.setMin(maffetone.getMax() - 10);
-		
+
+		return maffetone;
+	}
+
+	public static Maffetone calcZonaMaffetoneA(int idade) {
+		Maffetone maffetone = new Maffetone();
+
+		maffetone.setMax(180 - idade - 10);
+		maffetone.setMin(maffetone.getMax() - 10);
+
+		return maffetone;
+	}
+
+	public static Maffetone calcZonaMaffetoneB(int idade) {
+		Maffetone maffetone = new Maffetone();
+
+		maffetone.setMax(180 - idade - 5);
+		maffetone.setMin(maffetone.getMax() - 10);
+
 		return maffetone;
 	}
 }
- 
